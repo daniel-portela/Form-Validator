@@ -20,7 +20,7 @@ body {
 }
 .rightside {
     width: 400px;
-    background-color: #DDD;
+    background-color: #c8d0fc;
     padding: 50px;
 }
 .rightside label {
@@ -29,10 +29,10 @@ body {
 }
 .rightside input {
     width: 100%;
-    border: 1px solid #999;
-    border-radius: 5px;
+    border: 1px solid #06fe02;
+    border-radius: 6px;
     padding: 8px;
-    font-size: 14px;
+    font-size: 13px;
     outline: 0;
 }
 
@@ -43,3 +43,28 @@ body {
     padding: 4px;
     border-radius: 5px;
 }
+
+@media (max-width: 910px) {
+    .leftside img {
+        max-width: 300px;
+        height: auto;
+    }
+    .rightside {
+        width: 300px;
+        background-color: #c8d0fc;
+        padding: 50px;
+    }
+}
+
+@media (max-width: 590px) {
+    .leftside img {
+        max-width: 150px;
+        height: auto;
+    }
+    .rightside {
+        width: 200px;
+        background-color: #c8d0fc;
+        padding: 50px;
+    }
+}
+
