@@ -20,7 +20,7 @@ body {
 }
 .rightside {
     width: 400px;
-    background-color: #c8d0fc;
+    background-color: #d9fbe2;
     padding: 50px;
 }
 .rightside label {
@@ -46,24 +46,24 @@ body {
 
 @media (max-width: 910px) {
     .leftside img {
-        max-width: 300px;
+        display: none;
+        max-width: 350px;
         height: auto;
     }
     .rightside {
-        width: 300px;
-        background-color: #c8d0fc;
+        width: 400px;
+        background-color: #eff1f2;
         padding: 50px;
     }
 }
 
 @media (max-width: 590px) {
     .leftside img {
-        max-width: 150px;
-        height: auto;
+        display: none;
     }
     .rightside {
-        width: 200px;
-        background-color: #c8d0fc;
+        width: 300px;
+        background-color: #f0f3f4;
         padding: 50px;
     }
 }
